@@ -1,0 +1,15 @@
+.Rproj.user
+.Rhistory
+.RData
+.httr-oauth
+.DS_Store
+.quarto
+README.html
+pkgdown/
+inst/doc
+/doc/
+/Meta/
+docs/
+docs/
+old-code/
+docs
