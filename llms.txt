@@ -1,0 +1,25 @@
+Provides helper functions to access datasets from the Metropolitan
+Transportation Authority (MTA) portion of the New York State Open Data
+platform \<<https://data.ny.gov/>\>. Returns results as tidy tibbles
+with support for optional filtering, sorting, and row limits through the
+Socrata API.
+
+# Package index
+
+## Core functions
+
+Main user-facing functions
+
+- [`mta_list_datasets()`](https://martinezc1.github.io/mtaOpenData/reference/mta_list_datasets.md)
+  : List datasets available in mtaOpenData
+- [`mta_pull_dataset()`](https://martinezc1.github.io/mtaOpenData/reference/mta_pull_dataset.md)
+  : Pull a MTA Open Data dataset from the MTA Open Data catalog
+- [`mta_any_dataset()`](https://martinezc1.github.io/mtaOpenData/reference/mta_any_dataset.md)
+  : Load Any MTA Open Data Dataset
+
+# Articles
+
+### Vignettes
+
+- [Getting Started with
+  mtaOpenData](https://martinezc1.github.io/mtaOpenData/articles/getting-started.md):
