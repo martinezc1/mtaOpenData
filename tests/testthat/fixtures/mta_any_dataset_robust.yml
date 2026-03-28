@@ -1,0 +1,58 @@
+http_interactions:
+- request:
+    method: GET
+    uri: https://data.ny.gov/resource/2ucp-7wg5.json?%24limit=2
+  response:
+    status: 200
+    headers:
+      server: nginx
+      date: Fri, 27 Mar 2026 23:36:55 GMT
+      content-type: application/json;charset=utf-8
+      transfer-encoding: chunked
+      connection: keep-alive
+      access-control-allow-origin: '*'
+      etag: '"anVsaWV0dC41Mjc0NF8xMF8xMDM0MnpSempydHYxXzZhb2JnVlA3d2Zua0N6dHlB---gzipJlQfEHs-wRNsCNmL3mlHjlFpTyk--gzip--gzip"'
+      x-soda2-fields: '["valid_from","valid_to","in_effect","route_id","route_short_name","route_long_name","route_description","route_color","stop_id","stop_name","direction_id","direction","revenue_stop","timepoint","boarding","alighting","is_cbd","latitude","longitude","bundle","georeference",":@computed_region_wbg7_3whc",":@computed_region_kjdx_g34t",":@computed_region_yamh_8v7k"]'
+      x-soda2-types: '["floating_timestamp","floating_timestamp","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","number","number","text","point","number","number","number"]'
+      x-soda2-data-out-of-date: 'false'
+      x-soda2-truth-last-modified: Tue, 24 Feb 2026 05:12:50 GMT
+      x-soda2-secondary-last-modified: Tue, 24 Feb 2026 05:12:50 GMT
+      last-modified: Tue, 24 Feb 2026 05:12:50 GMT
+      vary: Accept-Encoding
+      content-encoding: gzip
+      strict-transport-security: max-age=31536000; includeSubDomains
+      x-socrata-requestid: a15c10fac6d3d8a02ca08eded6a017e2
+    body:
+      string: |
+        [{"valid_from":"2020-11-20T00:00:00.000","valid_to":"2020-12-15T00:00:00.000","in_effect":"false","route_id":"QM3","route_short_name":"QM3","route_long_name":"Little Neck - Midtown","route_description":"Via Northern Blvd","route_color":"00933C","stop_id":"450014","stop_name":"6 AV/W 41 ST","direction_id":"1","direction":"W","revenue_stop":"1","timepoint":"0","boarding":"0","alighting":"1","is_cbd":"true","latitude":"40.75459","longitude":"-73.984193","bundle":"2020Sep","georeference":{"type":"Point","coordinates":[-73.984193,40.75459]},":@computed_region_wbg7_3whc":"795",":@computed_region_kjdx_g34t":"2095",":@computed_region_yamh_8v7k":"749"}
+        ,{"valid_from":"2020-11-20T00:00:00.000","valid_to":"2020-12-15T00:00:00.000","in_effect":"false","route_id":"QM44","route_short_name":"QM44","route_long_name":"Electchester - Midtown Via 3Rd Ave","route_color":"00933C","stop_id":"551847","stop_name":"69 RD/112 ST","direction_id":"1","direction":"W","revenue_stop":"1","timepoint":"0","boarding":"1","alighting":"0","is_cbd":"false","latitude":"40.725655","longitude":"-73.840949","bundle":"2020Sep","georeference":{"type":"Point","coordinates":[-73.840949,40.725655]},":@computed_region_wbg7_3whc":"845",":@computed_region_kjdx_g34t":"2137",":@computed_region_yamh_8v7k":"196"}]
+  recorded_at: 2026-03-27 23:36:55
+- request:
+    method: GET
+    uri: https://data.ny.gov/resource/2ucp-7wg5.json?%24limit=2
+  response:
+    status: 200
+    headers:
+      server: nginx
+      date: Fri, 27 Mar 2026 23:36:56 GMT
+      content-type: application/json;charset=utf-8
+      transfer-encoding: chunked
+      connection: keep-alive
+      access-control-allow-origin: '*'
+      etag: '"anVsaWV0dC41Mjc0NF8xMF8xMDM0MnpSempydHYxXzZhb2JnVlA3d2Zua0N6dHlB---gzipJlQfEHs-wRNsCNmL3mlHjlFpTyk--gzip--gzip"'
+      x-soda2-fields: '["valid_from","valid_to","in_effect","route_id","route_short_name","route_long_name","route_description","route_color","stop_id","stop_name","direction_id","direction","revenue_stop","timepoint","boarding","alighting","is_cbd","latitude","longitude","bundle","georeference",":@computed_region_wbg7_3whc",":@computed_region_kjdx_g34t",":@computed_region_yamh_8v7k"]'
+      x-soda2-types: '["floating_timestamp","floating_timestamp","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","number","number","text","point","number","number","number"]'
+      x-soda2-data-out-of-date: 'false'
+      x-soda2-truth-last-modified: Tue, 24 Feb 2026 05:12:50 GMT
+      x-soda2-secondary-last-modified: Tue, 24 Feb 2026 05:12:50 GMT
+      last-modified: Tue, 24 Feb 2026 05:12:50 GMT
+      vary: Accept-Encoding
+      content-encoding: gzip
+      strict-transport-security: max-age=31536000; includeSubDomains
+      x-socrata-requestid: f6b9321dfa65d90c5ee86f1060e82ba0
+    body:
+      string: |
+        [{"valid_from":"2020-11-20T00:00:00.000","valid_to":"2020-12-15T00:00:00.000","in_effect":"false","route_id":"QM3","route_short_name":"QM3","route_long_name":"Little Neck - Midtown","route_description":"Via Northern Blvd","route_color":"00933C","stop_id":"450014","stop_name":"6 AV/W 41 ST","direction_id":"1","direction":"W","revenue_stop":"1","timepoint":"0","boarding":"0","alighting":"1","is_cbd":"true","latitude":"40.75459","longitude":"-73.984193","bundle":"2020Sep","georeference":{"type":"Point","coordinates":[-73.984193,40.75459]},":@computed_region_wbg7_3whc":"795",":@computed_region_kjdx_g34t":"2095",":@computed_region_yamh_8v7k":"749"}
+        ,{"valid_from":"2020-11-20T00:00:00.000","valid_to":"2020-12-15T00:00:00.000","in_effect":"false","route_id":"QM44","route_short_name":"QM44","route_long_name":"Electchester - Midtown Via 3Rd Ave","route_color":"00933C","stop_id":"551847","stop_name":"69 RD/112 ST","direction_id":"1","direction":"W","revenue_stop":"1","timepoint":"0","boarding":"1","alighting":"0","is_cbd":"false","latitude":"40.725655","longitude":"-73.840949","bundle":"2020Sep","georeference":{"type":"Point","coordinates":[-73.840949,40.725655]},":@computed_region_wbg7_3whc":"845",":@computed_region_kjdx_g34t":"2137",":@computed_region_yamh_8v7k":"196"}]
+  recorded_at: 2026-03-27 23:36:56
+recorded_with: VCR-vcr/2.1.0

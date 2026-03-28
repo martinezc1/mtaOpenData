@@ -1,0 +1,29 @@
+url: https://martinezc1.github.io/mtaOpenData/
+
+development:
+  mode: auto
+
+template:
+  bootstrap: 5
+
+home:
+  title: "mtaOpenData"
+  description: "Convenient access to MTA Open Data API endpoints in R"
+
+navbar:
+  structure:
+    left: [home, reference, articles]
+    right: [github]
+
+articles:
+  - title: "Vignettes"
+    contents:
+      - getting-started
+
+reference:
+  - title: "Core functions"
+    desc: "Main user-facing functions"
+    contents:
+      - mta_list_datasets
+      - mta_pull_dataset
+      - mta_any_dataset
