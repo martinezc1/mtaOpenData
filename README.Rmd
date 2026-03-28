@@ -52,7 +52,7 @@ bus_stops <- mta_pull_dataset(dataset = "mta_bus_stops", limit = 5000)
 head(bus_stops)
 ```
 
-## About
+## About 
 
 `mtaOpenData` makes New York State's civic datasets accessible to students,  
 educators, analysts, and researchers through a unified and user-friendly R interface.  
