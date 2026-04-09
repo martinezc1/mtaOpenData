@@ -47,11 +47,11 @@ mta_list_datasets() |> head()
 #>   dataset_title    open_dataset_id key   status plan_submission_date description
 #>   <chr>            <chr>           <chr> <chr>  <chr>                <chr>      
 #> 1 MTA Subway and … 23fs-vfbd       mta_… PUBLI… COMPLETE             This datas…
-#> 2 MTA Bus Stops    2ucp-7wg5       mta_… PUBLI… COMPLETE             This datas…
-#> 3 MTA Rail Branch… 2vcb-zrh4       mta_… PUBLI… COMPLETE             This datas…
-#> 4 MTA Bridges and… 2wqd-qady       mta_… PUBLI… COMPLETE             This datas…
-#> 5 MTA Workplace V… 2xh4-m2qk       mta_… PUBLI… COMPLETE             This datas…
-#> 6 MTA Subway Serv… 32ch-sei3       mta_… PUBLI… COMPLETE             Service De…
+#> 2 MTA Subway Orig… 28vm-gjqr       mta_… PUBLI… COMPLETE             This datas…
+#> 3 MTA Bus Stops    2ucp-7wg5       mta_… PUBLI… COMPLETE             This datas…
+#> 4 MTA Rail Branch… 2vcb-zrh4       mta_… PUBLI… COMPLETE             This datas…
+#> 5 MTA Bridges and… 2wqd-qady       mta_… PUBLI… COMPLETE             This datas…
+#> 6 MTA Workplace V… 2xh4-m2qk       mta_… PUBLI… COMPLETE             This datas…
 #> # ℹ 6 more variables: plan_submission_date_notes <chr>, type <chr>,
 #> #   agency <chr>, posting_frequency <chr>, dataset_created_at <chr>,
 #> #   nys_url_url <chr>
@@ -156,7 +156,7 @@ qm15_info
 #>   valid_from          valid_to            in_effect route_id route_short_name
 #>   <dttm>              <dttm>              <lgl>     <chr>    <chr>           
 #> 1 2019-10-01 00:00:00 2019-11-11 00:00:00 FALSE     QM15     QM15            
-#> 2 2021-11-15 00:00:00 2021-12-19 00:00:00 FALSE     QM15     QM15            
+#> 2 2026-01-21 00:00:00 2026-03-25 00:00:00 FALSE     QM15     QM15            
 #> # ℹ 17 more variables: route_long_name <chr>, route_description <chr>,
 #> #   route_color <chr>, stop_id <dbl>, stop_name <chr>, direction_id <dbl>,
 #> #   direction <chr>, revenue_stop <dbl>, timepoint <dbl>, boarding <dbl>,
@@ -200,8 +200,8 @@ qm15_17_info_in_effect
 #> # A tibble: 2 × 21
 #>   valid_from          valid_to            in_effect route_id route_short_name
 #>   <dttm>              <dttm>              <lgl>     <chr>    <chr>           
-#> 1 2026-01-21 00:00:00 2026-03-27 00:00:00 TRUE      QM17     QM17            
-#> 2 2026-01-21 00:00:00 2026-03-27 00:00:00 TRUE      QM15     QM15            
+#> 1 2026-03-26 00:00:00 2026-04-10 00:00:00 TRUE      QM15     QM15            
+#> 2 2026-03-26 00:00:00 2026-04-10 00:00:00 TRUE      QM15     QM15            
 #> # ℹ 16 more variables: route_long_name <chr>, route_color <chr>, stop_id <dbl>,
 #> #   stop_name <chr>, direction_id <dbl>, direction <chr>, revenue_stop <dbl>,
 #> #   timepoint <dbl>, boarding <dbl>, alighting <dbl>, is_cbd <lgl>,

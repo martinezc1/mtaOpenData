@@ -98,11 +98,11 @@ thousands of datasets found on the portal.</p>
 <span><span class="co">#&gt;   dataset_title    open_dataset_id key   status plan_submission_date description</span></span>
 <span><span class="co">#&gt;   <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>            <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>           <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>  <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>                <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>      </span></span>
 <span><span class="co">#&gt; <span style="color: #BCBCBC;">1</span> MTA Subway and … 23fs-vfbd       mta_… PUBLI… COMPLETE             This datas…</span></span>
-<span><span class="co">#&gt; <span style="color: #BCBCBC;">2</span> MTA Bus Stops    2ucp-7wg5       mta_… PUBLI… COMPLETE             This datas…</span></span>
-<span><span class="co">#&gt; <span style="color: #BCBCBC;">3</span> MTA Rail Branch… 2vcb-zrh4       mta_… PUBLI… COMPLETE             This datas…</span></span>
-<span><span class="co">#&gt; <span style="color: #BCBCBC;">4</span> MTA Bridges and… 2wqd-qady       mta_… PUBLI… COMPLETE             This datas…</span></span>
-<span><span class="co">#&gt; <span style="color: #BCBCBC;">5</span> MTA Workplace V… 2xh4-m2qk       mta_… PUBLI… COMPLETE             This datas…</span></span>
-<span><span class="co">#&gt; <span style="color: #BCBCBC;">6</span> MTA Subway Serv… 32ch-sei3       mta_… PUBLI… COMPLETE             Service De…</span></span>
+<span><span class="co">#&gt; <span style="color: #BCBCBC;">2</span> MTA Subway Orig… 28vm-gjqr       mta_… PUBLI… COMPLETE             This datas…</span></span>
+<span><span class="co">#&gt; <span style="color: #BCBCBC;">3</span> MTA Bus Stops    2ucp-7wg5       mta_… PUBLI… COMPLETE             This datas…</span></span>
+<span><span class="co">#&gt; <span style="color: #BCBCBC;">4</span> MTA Rail Branch… 2vcb-zrh4       mta_… PUBLI… COMPLETE             This datas…</span></span>
+<span><span class="co">#&gt; <span style="color: #BCBCBC;">5</span> MTA Bridges and… 2wqd-qady       mta_… PUBLI… COMPLETE             This datas…</span></span>
+<span><span class="co">#&gt; <span style="color: #BCBCBC;">6</span> MTA Workplace V… 2xh4-m2qk       mta_… PUBLI… COMPLETE             This datas…</span></span>
 <span><span class="co">#&gt; <span style="color: #949494;"># ℹ 6 more variables: plan_submission_date_notes &lt;chr&gt;, type &lt;chr&gt;,</span></span></span>
 <span><span class="co">#&gt; <span style="color: #949494;">#   agency &lt;chr&gt;, posting_frequency &lt;chr&gt;, dataset_created_at &lt;chr&gt;,</span></span></span>
 <span><span class="co">#&gt; <span style="color: #949494;">#   nys_url_url &lt;chr&gt;</span></span></span></code></pre></div>
@@ -190,7 +190,7 @@ is a column called “route_id” which we can use to accomplish this.</p>
 <span><span class="co">#&gt;   valid_from          valid_to            in_effect route_id route_short_name</span></span>
 <span><span class="co">#&gt;   <span style="color: #949494; font-style: italic;">&lt;dttm&gt;</span>              <span style="color: #949494; font-style: italic;">&lt;dttm&gt;</span>              <span style="color: #949494; font-style: italic;">&lt;lgl&gt;</span>     <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>    <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>           </span></span>
 <span><span class="co">#&gt; <span style="color: #BCBCBC;">1</span> 2019-10-01 <span style="color: #949494;">00:00:00</span> 2019-11-11 <span style="color: #949494;">00:00:00</span> FALSE     QM15     QM15            </span></span>
-<span><span class="co">#&gt; <span style="color: #BCBCBC;">2</span> 2021-11-15 <span style="color: #949494;">00:00:00</span> 2021-12-19 <span style="color: #949494;">00:00:00</span> FALSE     QM15     QM15            </span></span>
+<span><span class="co">#&gt; <span style="color: #BCBCBC;">2</span> 2026-01-21 <span style="color: #949494;">00:00:00</span> 2026-03-25 <span style="color: #949494;">00:00:00</span> FALSE     QM15     QM15            </span></span>
 <span><span class="co">#&gt; <span style="color: #949494;"># ℹ 17 more variables: route_long_name &lt;chr&gt;, route_description &lt;chr&gt;,</span></span></span>
 <span><span class="co">#&gt; <span style="color: #949494;">#   route_color &lt;chr&gt;, stop_id &lt;dbl&gt;, stop_name &lt;chr&gt;, direction_id &lt;dbl&gt;,</span></span></span>
 <span><span class="co">#&gt; <span style="color: #949494;">#   direction &lt;chr&gt;, revenue_stop &lt;dbl&gt;, timepoint &lt;dbl&gt;, boarding &lt;dbl&gt;,</span></span></span>
@@ -228,8 +228,8 @@ see the only <code>qm15_info</code> featured in our dataset is
 <span><span class="co">#&gt; <span style="color: #949494;"># A tibble: 2 × 21</span></span></span>
 <span><span class="co">#&gt;   valid_from          valid_to            in_effect route_id route_short_name</span></span>
 <span><span class="co">#&gt;   <span style="color: #949494; font-style: italic;">&lt;dttm&gt;</span>              <span style="color: #949494; font-style: italic;">&lt;dttm&gt;</span>              <span style="color: #949494; font-style: italic;">&lt;lgl&gt;</span>     <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>    <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>           </span></span>
-<span><span class="co">#&gt; <span style="color: #BCBCBC;">1</span> 2026-01-21 <span style="color: #949494;">00:00:00</span> 2026-03-27 <span style="color: #949494;">00:00:00</span> TRUE      QM17     QM17            </span></span>
-<span><span class="co">#&gt; <span style="color: #BCBCBC;">2</span> 2026-01-21 <span style="color: #949494;">00:00:00</span> 2026-03-27 <span style="color: #949494;">00:00:00</span> TRUE      QM15     QM15            </span></span>
+<span><span class="co">#&gt; <span style="color: #BCBCBC;">1</span> 2026-03-26 <span style="color: #949494;">00:00:00</span> 2026-04-10 <span style="color: #949494;">00:00:00</span> TRUE      QM15     QM15            </span></span>
+<span><span class="co">#&gt; <span style="color: #BCBCBC;">2</span> 2026-03-26 <span style="color: #949494;">00:00:00</span> 2026-04-10 <span style="color: #949494;">00:00:00</span> TRUE      QM15     QM15            </span></span>
 <span><span class="co">#&gt; <span style="color: #949494;"># ℹ 16 more variables: route_long_name &lt;chr&gt;, route_color &lt;chr&gt;, stop_id &lt;dbl&gt;,</span></span></span>
 <span><span class="co">#&gt; <span style="color: #949494;">#   stop_name &lt;chr&gt;, direction_id &lt;dbl&gt;, direction &lt;chr&gt;, revenue_stop &lt;dbl&gt;,</span></span></span>
 <span><span class="co">#&gt; <span style="color: #949494;">#   timepoint &lt;dbl&gt;, boarding &lt;dbl&gt;, alighting &lt;dbl&gt;, is_cbd &lt;lgl&gt;,</span></span></span>
