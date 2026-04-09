@@ -1,6 +1,12 @@
 
 # mtaOpenData
 
+[![CRAN status](https://www.r-pkg.org/badges/version/mtaOpenData)](https://CRAN.R-project.org/package=mtaOpenData)
+[![CRAN downloads](https://cranlogs.r-pkg.org/badges/grand-total/mtaOpenData?color=blue)](https://r-pkg.org/pkg/mtaOpenData)
+[![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html)
+[![Project Status: Active](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
+[![Codecov test coverage](https://codecov.io/gh/martinezc1/mtaOpenData/branch/main/graph/badge.svg)](https://app.codecov.io/gh/martinezc1/mtaOpenData)
+
 `mtaOpenData` provides simple, reproducible access to MTA-related
 datasets from the  
 [NY State Open Data portal](https://data.ny.gov/) platform — directly
@@ -43,6 +49,12 @@ via
 ------------------------------------------------------------------------
 
 ## Installation
+
+### From **CRAN**
+
+``` r
+install.packages("mtaOpenData")
+```
 
 ### Development version (GitHub)
 
@@ -99,7 +111,7 @@ package provides a general interface for any Socrata-backed portal,
 This package is part of a broader ecosystem of tools for working with
 New York open data:
 
-- `nycOpenData` — streamlined access to NYC Open Data  
+- `mtaOpenData` — streamlined access to NYC Open Data  
 - `nysOpenData` — streamlined access to NY State Open Data
 - `mtaOpenData` — streamlined access to MTA-related NY State Open Data
 
